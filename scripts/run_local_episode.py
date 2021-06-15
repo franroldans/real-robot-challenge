@@ -29,7 +29,7 @@ def _init_env(goal_pose_json, difficulty):
         'termination_fn': 'no_termination',
         'initializer': 'random_init',
         'monitor': False,
-        'visualization': True,
+        'visualization': False,
         'sim': True,
         'rank': 0
     }
